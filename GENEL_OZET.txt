@@ -1,0 +1,27 @@
+CNN-v4 MultiScale512 | MASTER 408 | Group-Aware 5-Fold OOF
+
+Toplam görüntü: 408
+REAL: 204
+FAKE: 204
+
+TTA:
+  Accuracy : 0.708333
+  Precision: 0.711443
+  Recall   : 0.700980
+  F1       : 0.706173
+  Macro-F1 : 0.708318
+  ROC-AUC  : 0.718522
+  Doğru    : 289/408
+  REAL     : 146/204
+  FAKE     : 143/204
+
+NO-TTA:
+  Accuracy : 0.691176
+  Precision: 0.691176
+  Recall   : 0.691176
+  F1       : 0.691176
+  Macro-F1 : 0.691176
+  ROC-AUC  : 0.718173
+  Doğru    : 282/408
+  REAL     : 141/204
+  FAKE     : 141/204

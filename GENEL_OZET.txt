@@ -1,0 +1,27 @@
+CNN-v3 Stronger | MASTER 408 | Group-Aware 5-Fold OOF
+
+Toplam görüntü: 408
+REAL: 204
+FAKE: 204
+
+TTA:
+  Accuracy : 0.718137
+  Precision: 0.723618
+  Recall   : 0.705882
+  F1       : 0.714640
+  Macro-F1 : 0.718095
+  ROC-AUC  : 0.713668
+  Doğru    : 293/408
+  REAL     : 149/204
+  FAKE     : 144/204
+
+NO-TTA:
+  Accuracy : 0.691176
+  Precision: 0.695000
+  Recall   : 0.681373
+  F1       : 0.688119
+  Macro-F1 : 0.691147
+  ROC-AUC  : 0.709511
+  Doğru    : 282/408
+  REAL     : 143/204
+  FAKE     : 139/204
